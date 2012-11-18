@@ -1,0 +1,33 @@
+{
+  "name": "individual",
+  "version": "0.1.0",
+  "description": "Garantueed individual values",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/individual.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/individual",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/individual/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tap": "~0.3.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/individual/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "tap --stderr --tap ./test"
+  }
+}

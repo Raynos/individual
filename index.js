@@ -1,10 +1,4 @@
-var root
-
-if (typeof window !== "undefined") {
-    root = window
-} else if (typeof global !== "undefined") {
-    root = global
-}
+var root = require("global")
 
 module.exports = Individual
 

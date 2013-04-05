@@ -4,10 +4,10 @@ Garantueed individual values
 
 ## Example
 
-```
+```js
 var Individual = require("individual")
 
-    , moduleCache = Individual("__MY_MODULE_CACHE", {})
+var moduleCache = Individual("__MY_MODULE_CACHE", {})
 
 // moduleCache is a individual variable local to this file.
 // It will always be the same value and defaults to {}.

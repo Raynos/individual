@@ -1,4 +1,6 @@
-var root = require("global")
+var root = typeof window !== 'undefined' ?
+    window : typeof global !== 'undefined' ?
+    global : {};
 
 module.exports = Individual
 

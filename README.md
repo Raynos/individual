@@ -66,3 +66,4 @@ I can't imagine any other way to do it. I hate it too. Make a
   [tes]: https://ci.testling.com/Raynos/individual
   [npm-png]: https://nodei.co/npm/individual.png?stars&downloads
   [npm]: https://nodei.co/npm/individual
+

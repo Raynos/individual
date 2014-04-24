@@ -63,7 +63,7 @@ I can't imagine any other way to do it. I hate it too. Make a
   [dep-png]: https://david-dm.org/Raynos/individual.png
   [dep]: https://david-dm.org/Raynos/individual
   [test-png]: https://ci.testling.com/Raynos/individual.png
-  [tes]: https://ci.testling.com/Raynos/individual
+  [test]: https://ci.testling.com/Raynos/individual
   [npm-png]: https://nodei.co/npm/individual.png?stars&downloads
   [npm]: https://nodei.co/npm/individual
 

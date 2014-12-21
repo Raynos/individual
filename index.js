@@ -1,18 +1,19 @@
+'use strict';
+
+/*global window, global*/
+
 var root = typeof window !== 'undefined' ?
     window : typeof global !== 'undefined' ?
     global : {};
 
-module.exports = Individual
+module.exports = Individual;
 
 function Individual(key, value) {
-    if (root[key]) {
-        return root[key]
+    if (key in root) {
+        return root[key];
     }
 
-    Object.defineProperty(root, key, {
-        value: value
-        , configurable: true
-    })
+    root[key] = value;
 
-    return value
+    return value;
 }
